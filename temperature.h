@@ -1,7 +1,5 @@
-#ifndef __REPORT_H__
-#define __REPORT_H__
-
-/* Add any function signatures you need here but do not modify the existing ones */
+#ifndef __TEMPERATURE_H__
+#define __TEMPERATURE_H__
 
 /**
  * @brief Convert temperature in Celsius to Fahrenheit
@@ -30,9 +28,17 @@ float celsius_to_kelvin(float celsius);
 /**
  * @brief Convert temperature in Kelvin to Celsius
  * 
- * @param celsius
+ * @param kelvin
  * @return float
  */
-float kelvin_to_celsius(float celsius);
+float kelvin_to_celsius(float kelvin);
 
-#endif /* __REPORT_H__ */
+/**
+ * @brief Categorize the temperature into different categories (Cold, Comfortable, Hot, etc.)
+ * 
+ * @param temperature
+ * @return const char* 
+ */
+void categorize_temperature(float celsius);
+
+#endif /* __TEMPERATURE_H__ */
