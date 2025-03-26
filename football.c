@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "football.h"
-
+//new comment to test workflow
 // Define possible NFL scoring plays
 #define TD_8 8  // Touchdown + 2-point conversion
 #define TD_7 7  // Touchdown + extra point
