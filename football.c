@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "football.h"
-//new comment to test workflow
+
 // Define possible NFL scoring plays
 #define TD_8 8  // Touchdown + 2-point conversion
 #define TD_7 7  // Touchdown + extra point
@@ -33,7 +33,8 @@ int count_combinations(int points) {
             }
         }
     }
-    return count; 
+    return count;  // Close the count_combinations function properly
+}
 
 /**
  * @brief Print a formatted table of all possible combinations that add up to `points`
