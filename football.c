@@ -33,8 +33,7 @@ int count_combinations(int points) {
             }
         }
     }
-    return count;  // Return total number of valid combinations
-}
+    return count; 
 
 /**
  * @brief Print a formatted table of all possible combinations that add up to `points`

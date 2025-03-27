@@ -4,7 +4,7 @@
 int main() {
     int score;
 
-    // Display instructions for the user
+    
     printf("Enter 0 or 1 to STOP\n");
 
     while (1) {

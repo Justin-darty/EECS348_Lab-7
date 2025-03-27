@@ -42,3 +42,4 @@ float kelvin_to_celsius(float kelvin);
 void categorize_temperature(float celsius);
 
 #endif /* __TEMPERATURE_H__ */
+//comment

@@ -71,3 +71,4 @@ void categorize_temperature(float celsius) {
     printf("Temperature Category: %s\n", category);
     printf("Advisory: %s\n", advisory);
 }
+//comment

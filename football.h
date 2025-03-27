@@ -20,3 +20,4 @@ int count_combinations(int points);
 void print_combinations(int points);
 
 #endif /* __LAB_H__ */
+//comment
